@@ -93,6 +93,21 @@
         <a href="privacy.html" style="display: block; margin-bottom: 20px;">
             Политика в отношении обработки персональных данных
         </a>
+        <a href="catalog-item.html" style="display: block; margin-bottom: 20px;">
+            Товар 1
+        </a>
+        <a href="catalog-item2.html" style="display: block; margin-bottom: 20px;">
+            Товар 2
+        </a>
+        <a href="catalog-item3.html" style="display: block; margin-bottom: 20px;">
+            Товар 3
+        </a>
+        <a href="catalog-item4.html" style="display: block; margin-bottom: 20px;">
+            Товар 4
+        </a>
+        <a href="catalog-item5.html" style="display: block; margin-bottom: 20px;">
+            Товар 5
+        </a>
 
 
         <button style="border: 2px solid #000;margin-bottom: 20px;" data-bs-toggle="modal" data-bs-target="#priceModal">
@@ -104,13 +119,16 @@
         <button style="border: 2px solid #000;margin-bottom: 20px;" data-bs-toggle="modal" data-bs-target="#thankModal">
             Благодарим за обращение!
         </button>
+        <button style="border: 2px solid #000;margin-bottom: 20px;" data-bs-toggle="modal" data-bs-target="#deliveryModal">
+            Инфа про доставку
+        </button>
 
     </div>
 
     <div class="modal" id="priceModal" aria-hidden="true">
     <div class="modal-dialog">
         <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
-            <img src="img/close.svg" alt="">
+            <img src="img/close3.svg" alt="">
         </button>
 
         <h3 class="modal__title display2">
@@ -151,7 +169,7 @@
 <div class="modal call-modal" id="callModal" aria-hidden="true">
     <div class="modal-dialog">
         <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
-            <img src="img/close.svg" alt="">
+            <img src="img/close3.svg" alt="">
         </button>
 
         <img src="img/modal-bg.webp" alt="" class="modal__img">
@@ -190,7 +208,7 @@
 <div class="modal thank-modal" id="thankModal" aria-hidden="true">
     <div class="modal-dialog">
         <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
-            <img src="img/close.svg" alt="">
+            <img src="img/close3.svg" alt="">
         </button>
         <img src="img/check2.svg" alt="" class="modal__icon">
         <h3 class="modal__title display3">
@@ -198,6 +216,39 @@
         </h3>
         <div class="modal__desc body-text">
             <p>Ожидайте звонка</p>
+        </div>
+    </div>
+</div>
+
+<div class="modal delivery-modal" id="deliveryModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <img src="img/close3.svg" alt="">
+        </button>
+
+        <div class="pay__group">
+            <h3 class="pay__subtitle display3">
+                Оплата
+            </h3>
+            <div class="pay__text body-text">
+                <p>Мы работаем с предприятиями любой формы собственности и физическими лицами. С юридическими лицами работаем по безналичному расчёту (без НДС), для работы с физическими лицами предусмотрено несколько видов оплаты: выставляем счёт для оплаты по безналичному расчёту, принимаем наличные средства и банковские карты.</p>
+            </div>
+        </div>
+        <div class="pay__group">
+            <h3 class="pay__subtitle display3">
+                Доставка по России и странам СНГ
+            </h3>
+            <div class="pay__text body-text">
+                <p>Осуществляем доставку продукции по всей России и странам СНГ транспортными компаниями: Деловые Линии, Экспресс-Авто, Почтой России и курьерской службой EMS Почта России. Отгрузка товара осуществляется либо до «дверей» покупателя, либо до офиса или терминала перевозчика. По предварительной договорённости можем организовать доставку другой транспортной компанией или курьерской службой.</p>
+            </div>
+        </div>
+        <div class="pay__group">
+            <h3 class="pay__subtitle display3">
+                Самовывоз
+            </h3>
+            <div class="pay__text body-text">
+                <p>Самовывоз по предварительной договорённости организуем по адресу г. Екатеринбург, ул. Татищева, 92, офис 10. При себе необходимо иметь доверенность на получение материальных ценностей или печать предприятия-покупателя.</p>
+            </div>
         </div>
     </div>
 </div>
