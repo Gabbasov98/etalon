@@ -7,8 +7,10 @@
     <meta name="keywords" content="">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" href="favicon.ico">
     <title>Товар</title>
 </head>
+
 
 <body>
     <div class="wrapper">
@@ -45,7 +47,7 @@
                 </div>
             </div>
             <div class="menu__cell1">
-                <div class="menu__content _direction">
+                <div class="menu__content _active _direction">
                     <div class="menu__nav">
     <button class="menu__back">
         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -422,7 +424,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="menu__content _active _made">
+                <div class="menu__content _made">
                     <div class="menu__nav">
     <button class="menu__back">
         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -525,9 +527,10 @@
                     <div class="header-search__bg"></div>
 
                     <div class="header-search__results">
+                        <div class="header-search__scroll">
                         <div class="header-search__results-type1">
-                            <div class="header-search__scroll">
-                                <div class="header-search__items">
+
+                            <div class="header-search__items">
                                     <a href="" class="search-card">
     <span class="search-card__img">
         <img src="img/search-img.webp" alt="">
@@ -609,8 +612,70 @@
     </span>
 </a>
 
+                                    <a href="" class="search-card">
+    <span class="search-card__img">
+        <img src="img/search-empty.webp" alt="">
+    </span>
+    <span class="search-card__title body-text">
+        <span>Пинце</span>т глазной хирургический
+    </span>
+</a>
+
+                                    <a href="" class="search-card">
+    <span class="search-card__img">
+        <img src="img/search-empty.webp" alt="">
+    </span>
+    <span class="search-card__title body-text">
+        <span>Пинце</span>т глазной хирургический
+    </span>
+</a>
+
+                                    <a href="" class="search-card">
+    <span class="search-card__img">
+        <img src="img/search-empty.webp" alt="">
+    </span>
+    <span class="search-card__title body-text">
+        <span>Пинце</span>т глазной хирургический
+    </span>
+</a>
+
+                                    <a href="" class="search-card">
+    <span class="search-card__img">
+        <img src="img/search-empty.webp" alt="">
+    </span>
+    <span class="search-card__title body-text">
+        <span>Пинце</span>т глазной хирургический
+    </span>
+</a>
+
+                                    <a href="" class="search-card">
+    <span class="search-card__img">
+        <img src="img/search-empty.webp" alt="">
+    </span>
+    <span class="search-card__title body-text">
+        <span>Пинце</span>т глазной хирургический
+    </span>
+</a>
+
+                                    <a href="" class="search-card">
+    <span class="search-card__img">
+        <img src="img/search-empty.webp" alt="">
+    </span>
+    <span class="search-card__title body-text">
+        <span>Пинце</span>т глазной хирургический
+    </span>
+</a>
+
+                                    <a href="" class="search-card">
+    <span class="search-card__img">
+        <img src="img/search-empty.webp" alt="">
+    </span>
+    <span class="search-card__title body-text">
+        <span>Пинце</span>т глазной хирургический
+    </span>
+</a>
+
                                 </div>
-                            </div>
                             <a href="" class="header-search__all arrow-link">
                                 <span>Все результаты поиска</span>
                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -640,6 +705,7 @@
 <!--                                По вашему запросу ничего не найдено. Попробуйте поискать по-другому или воспользуйтесь каталогом.-->
 <!--                            </p>-->
 <!--                        </div>-->
+                        </div>
                     </div>
                 </div>
                 <div class="header-consult">
@@ -836,10 +902,10 @@
                                     <div class="product__card">
     <div class="sale-card2__nav">
         <button class="sale-card2__btn m-btn m-btn-primary m-btn-primary2">
-                                                <span>
-                                                    Узнать цену
-                                                    <span class="_hide">в 1 клик</span>
-                                                </span>
+            <span>
+                Узнать цену
+                <span class="_hide">в 1 клик</span>
+            </span>
         </button>
         <button class="_add-cart sale-card2__btn2 m-btn m-btn-primary-outline">
             В&nbsp;корзину
@@ -872,9 +938,9 @@
             </button>
         </div>
     </div>
-    <div class="product__hint body-text-small">
+    <button class="product__hint body-text-small">
         Условия оплаты и доставки
-    </div>
+    </button>
     <a href="" class="menu__co">
         <div class="menu__co-img">
             <img src="img/co.svg" alt="">
@@ -919,129 +985,123 @@
                             </div>
                             <div class="product-detail__content tab-content tab-set">
                                 <div class="needs">
-                                    <div class="need-card">
-    <a href="" class="need-card__img">
-        <img src="img/need.png" alt="">
-    </a>
-    <div class="need-card__content">
-        <div class="need-card__art body-text-small gray-text">
-            Арт. RLSC–30LU
-        </div>
-        <a href="" class="need-card__text body-text">
-            Одноразовые картриджи для многоразового линейного сшивающего аппарата
-        </a>
+                                    <div class="sale-products__items">
+                                        <div class="sale-card3">
+    <div class="sale-card3__img">
+        <img src="img/sale8.png" alt="">
     </div>
-    <div class="">
-        <div class="sale-card2__nav">
-            <button class="_add-cart sale-card2__btn2 m-btn m-btn-primary m-btn-primary2">
-                В корзину
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path class="stroke-path" d="M1.55554 1.55566H2.63741L4.07629 8.30418C4.12907 8.55134 4.26598 8.77227 4.46344 8.92897C4.6609 9.08566 4.90657 9.16831 5.15815 9.16269H10.4485C10.6947 9.16229 10.9334 9.07754 11.1252 8.92244C11.317 8.76733 11.4504 8.55116 11.5033 8.30962L12.3958 4.27246H3.21621" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M11.9 11.8222C11.9 12.4665 11.3776 12.9889 10.7333 12.9889C10.089 12.9889 9.56665 12.4665 9.56665 11.8222C9.56665 11.1779 10.089 10.6555 10.7333 10.6555C11.3776 10.6555 11.9 11.1779 11.9 11.8222Z" fill="#fff"></path>
-                    <path d="M5.91109 11.8222C5.91109 12.4665 5.38876 12.9889 4.74443 12.9889C4.10009 12.9889 3.57776 12.4665 3.57776 11.8222C3.57776 11.1779 4.10009 10.6555 4.74443 10.6555C5.38876 10.6555 5.91109 11.1779 5.91109 11.8222Z" fill="#fff"></path>
-                </svg>
-            </button>
-            <div class="sale-card2__cart">
-                <div class="cartcalc">
-                    <button class="ccalc-minus">
-                        <svg width="23" height="22">
-                            <use xlink:href="img/sprite.svg#minus"></use>
-                        </svg>
-                    </button>
-                    <input type="text" value="0">
-                    <button class="ccalc-plus">
-                        <svg width="23" height="22">
-                            <use xlink:href="img/sprite.svg#plus"></use>
-                        </svg>
-                    </button>
-                </div>
-            </div>
+    <div class="sale-card3__info">
+        <div class="sale-card3__art body-text-small gray-text">
+            Арт. 5160
         </div>
+        <h3 class="sale-card3__title body-text">
+            Камертон с гирьками Стальной C–1 64 Гц
+        </h3>
     </div>
+    <button class="sale-card3__btn m-btn m-btn-primary m-btn-primary2">
+        <span>В корзину</span>
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.55469 1.55566H2.63655L4.07543 8.30418C4.12822 8.55134 4.26512 8.77227 4.46259 8.92897C4.66005 9.08566 4.90572 9.16831 5.1573 9.16269H10.4476C10.6938 9.16229 10.9326 9.07754 11.1243 8.92244C11.3161 8.76733 11.4495 8.55116 11.5024 8.30962L12.395 4.27246H3.21535" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M11.8997 11.8219C11.8997 12.4663 11.3774 12.9886 10.7331 12.9886C10.0887 12.9886 9.56641 12.4663 9.56641 11.8219C9.56641 11.1776 10.0887 10.6553 10.7331 10.6553C11.3774 10.6553 11.8997 11.1776 11.8997 11.8219Z" fill="white"/>
+            <path d="M5.91146 11.8219C5.91146 12.4663 5.38912 12.9886 4.74479 12.9886C4.10046 12.9886 3.57812 12.4663 3.57812 11.8219C3.57812 11.1776 4.10046 10.6553 4.74479 10.6553C5.38912 10.6553 5.91146 11.1776 5.91146 11.8219Z" fill="white"/>
+        </svg>
+
+    </button>
 </div>
 
-                                    <div class="need-card">
-    <a href="" class="need-card__img">
-        <img src="img/need.png" alt="">
-    </a>
-    <div class="need-card__content">
-        <div class="need-card__art body-text-small gray-text">
-            Арт. RLSC–30LU
-        </div>
-        <a href="" class="need-card__text body-text">
-            Одноразовые картриджи для многоразового линейного сшивающего аппарата
-        </a>
+                                        <div class="sale-card3">
+    <div class="sale-card3__img">
+        <img src="img/sale8.png" alt="">
     </div>
-    <div class="">
-        <div class="sale-card2__nav">
-            <button class="_add-cart sale-card2__btn2 m-btn m-btn-primary m-btn-primary2">
-                В корзину
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path class="stroke-path" d="M1.55554 1.55566H2.63741L4.07629 8.30418C4.12907 8.55134 4.26598 8.77227 4.46344 8.92897C4.6609 9.08566 4.90657 9.16831 5.15815 9.16269H10.4485C10.6947 9.16229 10.9334 9.07754 11.1252 8.92244C11.317 8.76733 11.4504 8.55116 11.5033 8.30962L12.3958 4.27246H3.21621" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M11.9 11.8222C11.9 12.4665 11.3776 12.9889 10.7333 12.9889C10.089 12.9889 9.56665 12.4665 9.56665 11.8222C9.56665 11.1779 10.089 10.6555 10.7333 10.6555C11.3776 10.6555 11.9 11.1779 11.9 11.8222Z" fill="#fff"></path>
-                    <path d="M5.91109 11.8222C5.91109 12.4665 5.38876 12.9889 4.74443 12.9889C4.10009 12.9889 3.57776 12.4665 3.57776 11.8222C3.57776 11.1779 4.10009 10.6555 4.74443 10.6555C5.38876 10.6555 5.91109 11.1779 5.91109 11.8222Z" fill="#fff"></path>
-                </svg>
-            </button>
-            <div class="sale-card2__cart">
-                <div class="cartcalc">
-                    <button class="ccalc-minus">
-                        <svg width="23" height="22">
-                            <use xlink:href="img/sprite.svg#minus"></use>
-                        </svg>
-                    </button>
-                    <input type="text" value="0">
-                    <button class="ccalc-plus">
-                        <svg width="23" height="22">
-                            <use xlink:href="img/sprite.svg#plus"></use>
-                        </svg>
-                    </button>
-                </div>
-            </div>
+    <div class="sale-card3__info">
+        <div class="sale-card3__art body-text-small gray-text">
+            Арт. 5161
         </div>
+        <h3 class="sale-card3__title body-text">
+            Камертон с гирьками Стальной C–1 128 Гц
+        </h3>
     </div>
+    <button class="sale-card3__btn m-btn m-btn-primary m-btn-primary2">
+        <span>В корзину</span>
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.55469 1.55566H2.63655L4.07543 8.30418C4.12822 8.55134 4.26512 8.77227 4.46259 8.92897C4.66005 9.08566 4.90572 9.16831 5.1573 9.16269H10.4476C10.6938 9.16229 10.9326 9.07754 11.1243 8.92244C11.3161 8.76733 11.4495 8.55116 11.5024 8.30962L12.395 4.27246H3.21535" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M11.8997 11.8219C11.8997 12.4663 11.3774 12.9886 10.7331 12.9886C10.0887 12.9886 9.56641 12.4663 9.56641 11.8219C9.56641 11.1776 10.0887 10.6553 10.7331 10.6553C11.3774 10.6553 11.8997 11.1776 11.8997 11.8219Z" fill="white"/>
+            <path d="M5.91146 11.8219C5.91146 12.4663 5.38912 12.9886 4.74479 12.9886C4.10046 12.9886 3.57812 12.4663 3.57812 11.8219C3.57812 11.1776 4.10046 10.6553 4.74479 10.6553C5.38912 10.6553 5.91146 11.1776 5.91146 11.8219Z" fill="white"/>
+        </svg>
+
+    </button>
 </div>
 
-                                    <div class="need-card">
-    <a href="" class="need-card__img">
-        <img src="img/need.png" alt="">
-    </a>
-    <div class="need-card__content">
-        <div class="need-card__art body-text-small gray-text">
-            Арт. RLSC–30LU
-        </div>
-        <a href="" class="need-card__text body-text">
-            Одноразовые картриджи для многоразового линейного сшивающего аппарата
-        </a>
+                                        <div class="sale-card3">
+    <div class="sale-card3__img">
+        <img src="img/sale8.png" alt="">
     </div>
-    <div class="">
-        <div class="sale-card2__nav">
-            <button class="_add-cart sale-card2__btn2 m-btn m-btn-primary m-btn-primary2">
-                В корзину
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path class="stroke-path" d="M1.55554 1.55566H2.63741L4.07629 8.30418C4.12907 8.55134 4.26598 8.77227 4.46344 8.92897C4.6609 9.08566 4.90657 9.16831 5.15815 9.16269H10.4485C10.6947 9.16229 10.9334 9.07754 11.1252 8.92244C11.317 8.76733 11.4504 8.55116 11.5033 8.30962L12.3958 4.27246H3.21621" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M11.9 11.8222C11.9 12.4665 11.3776 12.9889 10.7333 12.9889C10.089 12.9889 9.56665 12.4665 9.56665 11.8222C9.56665 11.1779 10.089 10.6555 10.7333 10.6555C11.3776 10.6555 11.9 11.1779 11.9 11.8222Z" fill="#fff"></path>
-                    <path d="M5.91109 11.8222C5.91109 12.4665 5.38876 12.9889 4.74443 12.9889C4.10009 12.9889 3.57776 12.4665 3.57776 11.8222C3.57776 11.1779 4.10009 10.6555 4.74443 10.6555C5.38876 10.6555 5.91109 11.1779 5.91109 11.8222Z" fill="#fff"></path>
-                </svg>
-            </button>
-            <div class="sale-card2__cart">
-                <div class="cartcalc">
-                    <button class="ccalc-minus">
-                        <svg width="23" height="22">
-                            <use xlink:href="img/sprite.svg#minus"></use>
-                        </svg>
-                    </button>
-                    <input type="text" value="0">
-                    <button class="ccalc-plus">
-                        <svg width="23" height="22">
-                            <use xlink:href="img/sprite.svg#plus"></use>
-                        </svg>
-                    </button>
-                </div>
-            </div>
+    <div class="sale-card3__info">
+        <div class="sale-card3__art body-text-small gray-text">
+            Арт. 5163
         </div>
+        <h3 class="sale-card3__title body-text">
+            Камертон с гирьками Стальной C–1 32 Гц
+        </h3>
     </div>
+    <button class="sale-card3__btn m-btn m-btn-primary m-btn-primary2">
+        <span>В корзину</span>
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.55469 1.55566H2.63655L4.07543 8.30418C4.12822 8.55134 4.26512 8.77227 4.46259 8.92897C4.66005 9.08566 4.90572 9.16831 5.1573 9.16269H10.4476C10.6938 9.16229 10.9326 9.07754 11.1243 8.92244C11.3161 8.76733 11.4495 8.55116 11.5024 8.30962L12.395 4.27246H3.21535" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M11.8997 11.8219C11.8997 12.4663 11.3774 12.9886 10.7331 12.9886C10.0887 12.9886 9.56641 12.4663 9.56641 11.8219C9.56641 11.1776 10.0887 10.6553 10.7331 10.6553C11.3774 10.6553 11.8997 11.1776 11.8997 11.8219Z" fill="white"/>
+            <path d="M5.91146 11.8219C5.91146 12.4663 5.38912 12.9886 4.74479 12.9886C4.10046 12.9886 3.57812 12.4663 3.57812 11.8219C3.57812 11.1776 4.10046 10.6553 4.74479 10.6553C5.38912 10.6553 5.91146 11.1776 5.91146 11.8219Z" fill="white"/>
+        </svg>
+
+    </button>
 </div>
 
+                                        <div class="sale-card3">
+    <div class="sale-card3__img">
+        <img src="img/sale8.png" alt="">
+    </div>
+    <div class="sale-card3__info">
+        <div class="sale-card3__art body-text-small gray-text">
+            Арт. 5164
+        </div>
+        <h3 class="sale-card3__title body-text">
+            Камертон с гирьками Стальной C–1 256 Гц
+        </h3>
+    </div>
+    <button class="sale-card3__btn m-btn m-btn-primary m-btn-primary2">
+        <span>В корзину</span>
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.55469 1.55566H2.63655L4.07543 8.30418C4.12822 8.55134 4.26512 8.77227 4.46259 8.92897C4.66005 9.08566 4.90572 9.16831 5.1573 9.16269H10.4476C10.6938 9.16229 10.9326 9.07754 11.1243 8.92244C11.3161 8.76733 11.4495 8.55116 11.5024 8.30962L12.395 4.27246H3.21535" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M11.8997 11.8219C11.8997 12.4663 11.3774 12.9886 10.7331 12.9886C10.0887 12.9886 9.56641 12.4663 9.56641 11.8219C9.56641 11.1776 10.0887 10.6553 10.7331 10.6553C11.3774 10.6553 11.8997 11.1776 11.8997 11.8219Z" fill="white"/>
+            <path d="M5.91146 11.8219C5.91146 12.4663 5.38912 12.9886 4.74479 12.9886C4.10046 12.9886 3.57812 12.4663 3.57812 11.8219C3.57812 11.1776 4.10046 10.6553 4.74479 10.6553C5.38912 10.6553 5.91146 11.1776 5.91146 11.8219Z" fill="white"/>
+        </svg>
+
+    </button>
+</div>
+
+                                        <div class="sale-card3">
+    <div class="sale-card3__img">
+        <img src="img/sale9.png" alt="">
+    </div>
+    <div class="sale-card3__info">
+        <div class="sale-card3__art body-text-small gray-text">
+            Арт. 5166
+        </div>
+        <h3 class="sale-card3__title body-text">
+            Камертон без гирек Стальной С-2 512 Гц
+        </h3>
+    </div>
+    <button class="sale-card3__btn m-btn m-btn-primary m-btn-primary2">
+        <span>В корзину</span>
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.55469 1.55566H2.63655L4.07543 8.30418C4.12822 8.55134 4.26512 8.77227 4.46259 8.92897C4.66005 9.08566 4.90572 9.16831 5.1573 9.16269H10.4476C10.6938 9.16229 10.9326 9.07754 11.1243 8.92244C11.3161 8.76733 11.4495 8.55116 11.5024 8.30962L12.395 4.27246H3.21535" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M11.8997 11.8219C11.8997 12.4663 11.3774 12.9886 10.7331 12.9886C10.0887 12.9886 9.56641 12.4663 9.56641 11.8219C9.56641 11.1776 10.0887 10.6553 10.7331 10.6553C11.3774 10.6553 11.8997 11.1776 11.8997 11.8219Z" fill="white"/>
+            <path d="M5.91146 11.8219C5.91146 12.4663 5.38912 12.9886 4.74479 12.9886C4.10046 12.9886 3.57812 12.4663 3.57812 11.8219C3.57812 11.1776 4.10046 10.6553 4.74479 10.6553C5.38912 10.6553 5.91146 11.1776 5.91146 11.8219Z" fill="white"/>
+        </svg>
+
+    </button>
+</div>
+
+                                    </div>
                                 </div>
                             </div>
                             <div class="product-detail__content tab-content tab-doc">
@@ -1584,7 +1644,7 @@
         <div class="container">
             <div class="footer-bottom__inner">
                 <span class="footer-bottom__item body-text-small">ООО НПО Эталон © 2007–2023</span>
-                <a href="" class="footer-bottom__item body-text-small">Сайт носит информационный характер и не является публичной офертой</a>
+                <span class="footer-bottom__item body-text-small">Сайт носит информационный характер и не является публичной офертой</span>
                 <a href="" class="footer-bottom__item body-text-small">Политика конфиденциальности</a>
             </div>
         </div>
