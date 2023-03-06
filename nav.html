@@ -112,6 +112,20 @@
         </a>
 
 
+        <a href="search.html" style="display: block; margin-bottom: 20px;">
+            Поиск
+        </a>
+        <a href="search2.html" style="display: block; margin-bottom: 20px;">
+            Поиск2
+        </a>
+        <a href="product-available.html" style="display: block; margin-bottom: 20px;">
+            Товары в налчии
+        </a>
+        <a href="404.html" style="display: block; margin-bottom: 20px;">
+            404
+        </a>
+
+
         <button style="border: 2px solid #000;margin-bottom: 20px;" data-bs-toggle="modal" data-bs-target="#priceModal">
             Узнать цену
         </button>
@@ -123,6 +137,9 @@
         </button>
         <button style="border: 2px solid #000;margin-bottom: 20px;" data-bs-toggle="modal" data-bs-target="#deliveryModal">
             Инфа про доставку
+        </button>
+        <button style="border: 2px solid #000;margin-bottom: 20px;" data-bs-toggle="modal" data-bs-target="#shareModal">
+            Поделиться корзиной
         </button>
 
     </div>
@@ -259,6 +276,43 @@
             <div class="pay__text body-text">
                 <p>Самовывоз по предварительной договорённости организуем по адресу г. Екатеринбург, ул. Татищева, 92, офис 10. При себе необходимо иметь доверенность на получение материальных ценностей или печать предприятия-покупателя.</p>
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal share-modal" id="shareModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <button type="button" class="modal__close" data-bs-dismiss="modal" aria-label="Close">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 4L14 14M4 14L14 4" stroke="#0082C9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <h3 class="modal__title display3">
+            Поделиться корзиной
+        </h3>
+        <div class="share-modal__socials">
+            <a href="" class="share-modal__social">
+                <img src="img/social.svg" alt="">
+            </a>
+            <a href="" class="share-modal__social">
+                <img src="img/social2.svg" alt="">
+            </a>
+            <a href="" class="share-modal__social">
+                <img src="img/social3.svg" alt="">
+            </a>
+            <a href="" class="share-modal__social">
+                <img src="img/social4.svg" alt="">
+            </a>
+        </div>
+        <div class="share-modal__subtitle body-text-big medium-text">
+            Прямая ссылка
+        </div>
+        <div class="share-modal__link copy-link">
+            <span>https://etalon66.ru/hui72gvh</span>
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.66667 8.25H11.9167C12.9292 8.25 13.75 9.07081 13.75 10.0833V18.3333C13.75 19.3459 12.9292 20.1667 11.9167 20.1667H3.66667C2.65415 20.1667 1.83333 19.3459 1.83333 18.3333V10.0833C1.83333 9.07081 2.65415 8.25 3.66667 8.25Z" stroke="#606981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M17.418 13.7497H18.3346C18.8209 13.7497 19.2872 13.5565 19.631 13.2127C19.9748 12.8689 20.168 12.4026 20.168 11.9163V3.66634C20.168 3.18011 19.9748 2.7138 19.631 2.36998C19.2872 2.02616 18.8209 1.83301 18.3346 1.83301H10.0846C9.59841 1.83301 9.13209 2.02616 8.78827 2.36998C8.44446 2.7138 8.2513 3.18011 8.2513 3.66634V4.58301" stroke="#606981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
         </div>
     </div>
 </div>
